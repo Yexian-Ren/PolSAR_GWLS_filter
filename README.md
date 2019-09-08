@@ -1,6 +1,6 @@
 # PolSAR_GWLS_filter
 This is a Matlab implementation demo of PolSAR GWLS filter.  
-In this demo, some operations are added to avoid calculation anomalies, and the operation of parameter automation is also improved. However, these operations may increase the computational load.  
+In this demo, some operations are added to avoid computing exceptions,, and the efficiency of the filter is also improved.          
 
 Please refer to the following paper for a more detailed description of the algorithm.  
 Yexian Ren, Jie Yang, Lingli Zhao, Pingxiang Li, Zhiqu Liu, Lei Shi. A Global Weighted Least Squares Optimization Framework for Speckle Filtering of PolSAR Imagery. IEEE Trans. Geosci. Remote Sens. （https://ieeexplore.ieee.org/document/8457251）  
@@ -14,7 +14,7 @@ Ren et al. "SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual
 
 
 **ACKNOWLEDGMENT**    
-Thank Dr. Xianxiang Qin for his constructive suggestions to improve this work.
+Thank Dr. Xianxiang Qin for his constructive suggestions to improve this work.       
 
 
 Thank you for your reading！  
