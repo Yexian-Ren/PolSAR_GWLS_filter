@@ -101,7 +101,9 @@ for i = 1:K
     muInit(i) = mean(data0(find(data0>=t1&data0<=t2)));
 end
 
-[mu,variance,p,iterNum,label] = GaussEM2(data,K,50,0.01,muInit);
+% [mu,variance,p,iterNum,label] = GaussEM2(data,K,50,0.01,muInit);
+ [mu,variance,p,iterNum,label] = GaussEM2(data,K,10,0.01,muInit);
+
 end
 
 function [mu,variance,p,iterNum,label] = GaussEM2(X,numOfComponent,maxIter,tol,muInit,varianceInit,pInit)

@@ -43,13 +43,18 @@ D = 1-(e+w+s+n);
 A = A + A' + spdiags(D, 0, k, k);
 
 % Solve
-x = waitbar(0,'processing');
-for ii = 1:9
-    waitbar(ii/9)
-    temp = T3mat(:,:,ii);
-    res_t = A\temp(:);
-    filterdata(:,:,ii) = reshape(res_t,r,c);   
-end
-close(x)
+% x = waitbar(0,'processing');
+% for ii = 1:9
+%     waitbar(ii/9)
+%     temp = T3mat(:,:,ii);
+%     res_t = A\temp(:);
+%     filterdata(:,:,ii) = reshape(res_t,r,c);   
+% end
+% close(x)
+
+% Suggestions from Dr.Qin for improving the algorithm
+temp = reshape(T3mat,k,9);
+res_t = A\temp;
+filterdata = reshape(res_t,r,c,9);
 
 end
