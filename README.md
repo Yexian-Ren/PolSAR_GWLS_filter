@@ -8,11 +8,10 @@ Yexian Ren, Jie Yang, Lingli Zhao, Pingxiang Li, Zhiqu Liu, Lei Shi. A Global We
 3. The **fPolRGBshow.m** is used to visualize PolSAR images and it is helpful to visualize high resolution PolSAR images. We have used this code in the following paper for the high resolution PolSAR image visualization.  
 Ren et al. "SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering" ,IEEE Trans. Geosci. Remote Sens.  
 <br/> <br/>  
-**ACKNOWLEDGMENT**  
-Thank Dr. Xianxiang Qin for his constructive suggestions to improve this work.        
-<br/><br/>   
+**ACKNOWLEDGMENT** <br/>Thank Dr. Xianxiang Qin for his constructive suggestions to improve this work.        
+<br/>  
 Thank you for your reading！  
-<br/><br/> 
+<br/>
 Yexian Ren  
 Email: renyexian@foxmail.com  
 QQ: 2538715345  
