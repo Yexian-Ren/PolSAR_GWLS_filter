@@ -20,7 +20,7 @@ dy = -lambda(1:end-1,:)./(abs(dy).^alpha(1:end-1,:) + smallNum);
 dy = padarray(dy, [1 0], 'post');
 dy = dy(:);
 
-%×óÓÒ
+%Ã—Ã³Ã“Ã’
 dx = diff(L, 1, 2); 
 % dx = padarray(dx, [0 1], 'post');
 dx = -lambda(:,1:end-1)./(abs(dx).^alpha(:,1:end-1) + smallNum);
@@ -42,17 +42,7 @@ n = padarray(dy, 1, 'pre'); n = n(1:end-1);
 D = 1-(e+w+s+n);
 A = A + A' + spdiags(D, 0, k, k);
 
-% Solve
-% x = waitbar(0,'processing');
-% for ii = 1:9
-%     waitbar(ii/9)
-%     temp = T3mat(:,:,ii);
-%     res_t = A\temp(:);
-%     filterdata(:,:,ii) = reshape(res_t,r,c);   
-% end
-% close(x)
 
-% Suggestions from Dr.Qin for improving the algorithm
 temp = reshape(T3mat,k,9);
 res_t = A\temp;
 filterdata = reshape(res_t,r,c,9);
