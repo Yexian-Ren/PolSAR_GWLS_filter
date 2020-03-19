@@ -1,17 +1,13 @@
 function RGBdata=fPolRGBshow(varargin)
 
 % This code was adapted from PolSARpro
-% The code was written by Yexian Ren £¨renyexian@foxmail.com£© 
+% The code was written by Yexian Ren Â£Â¨renyexian@foxmail.comÂ£Â© 
 % and used in the paper for the PolSAR Image Visualization
 % Ren et al. "SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering" ,IEEE Trans. Geosci. Remote Sens.
 % If you have any comment, or question, please contact Yexian Ren at
 % renyexian@foxmail.com  or QQ: 2538715345
 
 %% Function: PolSAR Image Display
-% This code is helpful to visualize high resolution PolSAR images
-% If you use this code to visualize high resolution PolSAR images, please cite the following paper,
-% Ren et al. "SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering" ,
-% IEEE Trans. Geosci. Remote Sens. vol. 57, no. 8, pp. 5923-5938, Aug. 2019
 
 if nargin == 1
     T3 = varargin{1};
